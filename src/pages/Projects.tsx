@@ -91,10 +91,8 @@ const Projects = () => {
 
   const categories = [
     { id: "all", name: "All Projects" },
-    { id: "web", name: "Web Development" },
+    { id: "web", name: "Cyber Security" },
     { id: "ai", name: "AI & ML" },
-    { id: "blockchain", name: "Blockchain" },
-    { id: "iot", name: "IoT" }
   ];
 
   return (
