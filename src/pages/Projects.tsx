@@ -28,36 +28,36 @@ const Projects = () => {
       id: 1,
       title: "Retinal OCT Classification (ViT)",
       description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
-      image: "https://github.com/ChandaRiddhima04/DL-GenAI",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fobulisainaren%2Fretinal-oct-c8&psig=AOvVaw1T3ijEbWVJu-A5lzPJ4O3z&ust=1754936364444000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICorcvtgI8DFQAAAAAdAAAAABAE",
       tags: ["Python", "Machine Learning", "AI"],
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML",
+      code: "https://github.com/ChandaRiddhima04/DL-GenAI",
       category: "ai"
     },
     {
       id: 2,
       title: "Cloud-Based Payment Gateway",
       description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
-      image: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdashdevs.com%2Fblog%2Fhow-to-build-a-payment-gateway%2F&psig=AOvVaw0luSXRLznmqXttgXWGrgly&ust=1754936412724000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCluuHtgI8DFQAAAAAdAAAAABAE",
       tags: ["Python", "TensorFlow", "Neural Networks"],
-      code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification",
+      code: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
       category: "ai"
     },
     {
       id: 3,
       title: "XSS Testing GUI",
       description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
-      image: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.optimizationcore.com%2Fsecurity%2Fjavascript-testing-for-xss%2F&psig=AOvVaw1UlgM4dhHuxUdzwV9TdJ_F&ust=1754936440052000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjNne7tgI8DFQAAAAAdAAAAABAE",
       tags: ["Python", "Machine Learning", "Data Science"],
-      code: "https://github.com/oxBinaryBrain/CC-Fraud-Detection",
+      code: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
       category: "ai"
     },
     {
       id: 4,
       title: " LLM-Based Food Ingredient Analyzer",
       description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
-      image: "https://github.com/ChandaRiddhima04/food_app",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpub.towardsai.net%2Frecibrew-find-out-the-foods-ingredients-dbc2a4e37383&psig=AOvVaw2LZZG9ABMu2Z2u2Qu6fhYV&ust=1754936468673000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICa-_jtgI8DFQAAAAAdAAAAABAE",
       tags: ["Python", "NLP", "Machine Learning"],
-      code: "https://github.com/oxBinaryBrain/contextualized-topic-models",
+      code: "https://github.com/ChandaRiddhima04/food_app",
       category: "ai"
     },
   ];
