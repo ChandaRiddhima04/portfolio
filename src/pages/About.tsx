@@ -11,16 +11,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    { name: "Python", level: "Advanced" },
-    { name: "JavaScript", level: "Advanced" },
-    { name: "React.js", level: "Intermediate" },
-    { name: "Node.js", level: "Intermediate" },
-    { name: "Next.js", level: "Intermediate" },
-    { name: "C++", level: "Intermediate" },
+    { name: "Python", level: "Intermediate" },
     { name: "Machine Learning", level: "Intermediate" },
-    { name: "CSS", level: "Intermediate" },
-    { name: "Blockchain", level: "Beginner" },
     { name: "AI", level: "Intermediate" },
+    { name: "SQL", level: "Intermediate" },
+    { name: "CLOUD COMPUTING", level: "Intermediate" },
+    { name: "JAVA", level: "Beginner" },
+    { name: "C++", level: "Beginner" },
+    
   ];
 
   return (
@@ -79,16 +77,16 @@ const About = () => {
                   I'm <motion.span 
                     className="text-brand-purple font-semibold"
                     whileHover={{ color: "#8B5CF6" }}
-                  >Uday G</motion.span>, a Computer Science student specializing in AI & Machine Learning at Presidency University, Bengaluru.
+                  >Riddhima Chanda</motion.span>, a Computer Science student specializing in Business Systems at the Institute of Engineering and Management, Kolkata.
                 </p>
                 <p>
-                  My journey in programming began with an interest in solving complex problems. This led me to explore various programming languages and technologies, with a focus on web development and artificial intelligence.
+                  My journey in programming began with Hands-on experience in data analytics, AI models, and secure payment systems through multiple internships and projects.
                 </p>
                 <p>
-                  I'm passionate about building web applications and software that is not only functional but also intuitive and user-friendly. I believe in continuous learning and staying updated with the latest technologies.
+                  I'm certified by Microsoft and AWS with a strong record of delivering innovative technical solutions.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy exploring new technologies, solving algorithmic problems, contributing to open-source projects and playing video games.
+                  When I'm not coding, I enjoy exploring new technologies, doing recitation, and watching movies.
                 </p>
               </div>
             </motion.div>
