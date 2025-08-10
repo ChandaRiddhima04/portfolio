@@ -27,7 +27,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Retinal OCT Classification (ViT)",
-      description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
+      description: "Develped a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
       image: "https://storage.googleapis.com/kaggle-datasets-images/1629109/2736749/b553b6b50bddff420f69ddad4e70f5eb/dataset-card.png?t=2024-10-10-14-45-11",
       tags: ["Python", "Machine Learning", "AI", "Neural Networks"],
       code: "https://github.com/ChandaRiddhima04/DL-GenAI",
