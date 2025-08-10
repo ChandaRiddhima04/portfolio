@@ -26,36 +26,36 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Income Tax Fraud Detection",
+      title: "Retinal OCT Classification (ViT)",
       description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://github.com/ChandaRiddhima04/DL-GenAI",
       tags: ["Python", "Machine Learning", "AI"],
       code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML",
       category: "ai"
     },
     {
       id: 2,
-      title: "Oral Cancer Classification using Neural Networks",
+      title: "Cloud-Based Payment Gateway",
       description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
       tags: ["Python", "TensorFlow", "Neural Networks"],
       code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification",
       category: "ai"
     },
     {
       id: 3,
-      title: "Credit Card Fraud Detection",
+      title: "XSS Testing GUI",
       description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
       tags: ["Python", "Machine Learning", "Data Science"],
       code: "https://github.com/oxBinaryBrain/CC-Fraud-Detection",
       category: "ai"
     },
     {
       id: 4,
-      title: "Contextualized Topic Modeling",
+      title: " LLM-Based Food Ingredient Analyzer",
       description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://github.com/ChandaRiddhima04/food_app",
       tags: ["Python", "NLP", "Machine Learning"],
       code: "https://github.com/oxBinaryBrain/contextualized-topic-models",
       category: "ai"
@@ -69,33 +69,6 @@ const Projects = () => {
       code: "https://github.com/oxBinaryBrain/E-commerce",
       category: "web"
     },
-    {
-      id: 6,
-      title: "Personal Portfolio",
-      description: "A responsive personal portfolio website showcasing projects and skills.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      tags: ["React", "Node", "HTML","CSS"],
-      code: "https://github.com/oxBinaryBrain/Portfolio_V1",
-      category: "web"
-    },
-    {
-      id: 7,
-      title: "Blockchain Explorer",
-      description: "A web interface for exploring blockchain data and transactions.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-      tags: ["JavaScript", "React", "Blockchain", "Web3.js"],
-      code: "https://github.com/oxBinaryBrain/Software-solution-to-identify-the-end-receiver-of-a-cryptocurrency-transaction",
-      category: "blockchain"
-    },
-    {
-      id: 8,
-      title: "Smart Home Dashboard",
-      description: "A dashboard for monitoring and controlling smart home devices.",
-      image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=800&q=80",
-      tags: ["C", "IoT", "NArdiuno"],
-      code: "https://github.com/oxBinaryBrain/Ardiuno",
-      category: "iot"
-    }
   ];
 
   const getIcon = (category: string) => {
