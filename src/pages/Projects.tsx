@@ -28,7 +28,7 @@ const Projects = () => {
       id: 1,
       title: "Retinal OCT Classification (ViT)",
       description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fobulisainaren%2Fretinal-oct-c8&psig=AOvVaw1T3ijEbWVJu-A5lzPJ4O3z&ust=1754936364444000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICorcvtgI8DFQAAAAAdAAAAABAE",
+      image: "https://storage.googleapis.com/kaggle-datasets-images/1629109/2736749/b553b6b50bddff420f69ddad4e70f5eb/dataset-card.png?t=2024-10-10-14-45-11",
       tags: ["Python", "Machine Learning", "AI"],
       code: "https://github.com/ChandaRiddhima04/DL-GenAI",
       category: "ai"
@@ -37,7 +37,7 @@ const Projects = () => {
       id: 2,
       title: "Cloud-Based Payment Gateway",
       description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdashdevs.com%2Fblog%2Fhow-to-build-a-payment-gateway%2F&psig=AOvVaw0luSXRLznmqXttgXWGrgly&ust=1754936412724000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCluuHtgI8DFQAAAAAdAAAAABAE",
+      image: "https://media.dashdevs.com/images/How-to-build-payment-gateway-1.jpg",
       tags: ["Python", "TensorFlow", "Neural Networks"],
       code: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
       category: "ai"
@@ -46,7 +46,7 @@ const Projects = () => {
       id: 3,
       title: "XSS Testing GUI",
       description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.optimizationcore.com%2Fsecurity%2Fjavascript-testing-for-xss%2F&psig=AOvVaw1UlgM4dhHuxUdzwV9TdJ_F&ust=1754936440052000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjNne7tgI8DFQAAAAAdAAAAABAE",
+      image: "https://www.optimizationcore.com/wp-content/uploads/2024/11/javascript-testing-for-xss.webp",
       tags: ["Python", "Machine Learning", "Data Science"],
       code: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
       category: "ai"
@@ -55,7 +55,7 @@ const Projects = () => {
       id: 4,
       title: " LLM-Based Food Ingredient Analyzer",
       description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpub.towardsai.net%2Frecibrew-find-out-the-foods-ingredients-dbc2a4e37383&psig=AOvVaw2LZZG9ABMu2Z2u2Qu6fhYV&ust=1754936468673000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCICa-_jtgI8DFQAAAAAdAAAAABAE",
+      image: "https://miro.medium.com/v2/resize:fit:11024/0*foGYVpmcioZrRb4-",
       tags: ["Python", "NLP", "Machine Learning"],
       code: "https://github.com/ChandaRiddhima04/food_app",
       category: "ai"
