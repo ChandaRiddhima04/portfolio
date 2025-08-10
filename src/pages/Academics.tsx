@@ -15,40 +15,39 @@ const Academics = () => {
   const education = [
     {
       id: 1,
-      institution: "Presidency University, Bengaluru",
+      institution: "Institute of engineering and Management, kolkata",
       degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (Specialization in AI & ML)",
-      duration: "2021 - Present",
-      location: "Bengaluru, Karnataka",
+      field: "Computer Science & Engineering (Specialization in Business System)",
+      duration: "2022 - Present",
+      location: "Kolkata,West Bengal",
       cgpa: "In Progress",
       details: [
-        "Specializing in Artificial Intelligence and Machine Learning",
-        "Key courses include Data Structures, Algorithms, Machine Learning",
+        "Specializing in Business System",
+        "Key courses include DBMS, Algorithms, Machine Learning",
         "Actively participating in research projects related to AI/ML"
       ]
     },
     {
       id: 2,
-      institution: "MES Kishora Kendra",
-      degree: "Pre-University College",
+      institution: "kaliyaganj Parbati Sundari High School",
+      degree: "Higher Secondary",
       field: "Science Stream",
-      duration: "2019 - 2021",
-      location: "Bengaluru, Karnataka",
-      cgpa: "8.5",
+      duration: "2020 - 2022",
+      location: "Uttar Dinajpur, West Bengal",
+      Percentage: "94.4",
       details: [
-        "Major subjects included Physics, Mathematics, Chemistry, Computer Science",
-        "Highlights: Advanced Mathematics & Computer Science",
-        "Developed strong foundation in scientific principles and programming"
+        "Major subjects included Physics, Mathematics, Chemistry, Biology",
+        "Highlights: Advanced Mathematics",
+        "Developed strong foundation in scientific principles and Mathematics"
       ]
     },
     {
       id: 3,
       institution: "Nelamangala, Bengaluru",
       degree: "Secondary High School",
-      field: "NCERT-based Curriculum",
-      duration: "2012 - 2019",
+      duration: "2016 - 2020",
       location: "Bengaluru, Karnataka",
-      cgpa: "9.09",
+      Percentage: "96.57",
       details: [
         "Strong foundation in Science",
         "Studied foundations of Mathematics"
@@ -59,31 +58,31 @@ const Academics = () => {
   const certifications = [
     {
       id: 1,
-      name: "Python Programming",
-      issuer: "Coursera",
-      date: "2022",
-      description: "Comprehensive course covering advanced Python concepts and applications."
+      name: "Cybersecurity Analyst Associate",
+      issuer: "Microsoft",
+      date: "2025",
+      description: "Introduction to Computers and Operating Systems and Security and networking and cloud computing."
     },
     {
       id: 2,
-      name: "Web Development with JavaScript",
-      issuer: "Udemy",
-      date: "2022",
-      description: "In-depth training on building modern web applications using JavaScript."
+      name: "AWS Cloud Technology Consultant",
+      issuer: "Amazon",
+      date: "2025",
+      description: "In-depth training Aws Cloud Services"
     },
     {
       id: 3,
-      name: "Machine Learning Fundamentals",
-      issuer: "edX",
-      date: "2023",
-      description: "Introduction to machine learning algorithms and their implementation."
+      name: "Building AI Cloud Apps with Azure ",
+      issuer: "Microsoft",
+      date: "2025",
+      description: "Build Serverless Applications and Connect Services with Microsoft Azure Service Bus"
     },
     {
       id: 4,
-      name: "React.js Development",
-      issuer: "freeCodeCamp",
-      date: "2023",
-      description: "Building interactive user interfaces with React.js framework."
+      name: "Foundations of Cybersecurity",
+      issuer: "Google",
+      date: "2025",
+      description: "Building foundation on cyber Security"
     }
   ];
 
@@ -93,11 +92,10 @@ const Academics = () => {
     "Artificial Intelligence",
     "Database Management Systems",
     "Computer Networks",
+    "Cyber Security",
     "Operating Systems",
-    "Web Technologies",
     "Software Engineering",
     "Cloud Computing",
-    "Blockchain Technology"
   ];
 
   return (
