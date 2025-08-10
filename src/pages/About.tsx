@@ -148,7 +148,7 @@ const About = () => {
               <InfoCard icon={User} title="Personal Interests">
                 <ul className="space-y-2 text-muted-foreground">
                   {["Exploring new technologies", "Solving algorithmic challenges", 
-                    "Open-source contributions", "Web development projects"].map((interest, i) => (
+                    "Doing Recitation", "Watching Movie"].map((interest, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -179,8 +179,8 @@ const About = () => {
 
               <InfoCard icon={GraduationCap} title="Education Journey">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Computer Science fundamentals", "Data structures and algorithms", 
-                    "Machine learning and AI", "Self-taught web development"].map((journey, i) => (
+                  {["Computer Science fundamentals", "Database Management System", 
+                    "Machine learning and AI", "Cloud Computing"].map((journey, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -195,8 +195,8 @@ const About = () => {
 
               <InfoCard icon={BookOpen} title="Future Goals">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Mastering advanced AI techniques", "Building impactful web applications", 
-                    "Contributing to open-source projects", "Exploring blockchain development"].map((goal, i) => (
+                  {["Mastering advanced AI techniques", "Attain Advanced Proficiency in cloud computing", 
+                    "Develop a Real-Time Personalized Nutrition Assistant", "Transition into a Technical Project Manager or Product Manager Role"].map((goal, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
