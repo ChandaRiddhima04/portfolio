@@ -43,10 +43,10 @@ const Academics = () => {
     },
     {
       id: 3,
-      institution: "Nelamangala, Bengaluru",
+      institution: "Kaliyaganj Milanmoyee Girls' High School",
       degree: "Secondary High School",
       duration: "2016 - 2020",
-      location: "Bengaluru, Karnataka",
+      location: "Uttar Dinajpur, West Bengal",
       Percentage: "96.57",
       details: [
         "Strong foundation in Science",
