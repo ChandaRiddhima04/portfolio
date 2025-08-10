@@ -27,7 +27,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Retinal OCT Classification (ViT)",
-      description: "Develped a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
+      description: "Developed a ViT model to classify retinal OCT images into CNV, DME, DRUSEN, and NORMAL for early disease detection.",
       image: "https://storage.googleapis.com/kaggle-datasets-images/1629109/2736749/b553b6b50bddff420f69ddad4e70f5eb/dataset-card.png?t=2024-10-10-14-45-11",
       tags: ["Python", "Machine Learning", "AI", "Neural Networks"],
       code: "https://github.com/ChandaRiddhima04/DL-GenAI",
@@ -36,7 +36,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Cloud-Based Payment Gateway",
-      description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
+      description: "Developing a secure payment gateway with cloud-based transaction handling.",
       image: "https://media.dashdevs.com/images/How-to-build-payment-gateway-1.jpg",
       tags: ["Python", "Ngrok"],
       code: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
@@ -45,16 +45,16 @@ const Projects = () => {
     {
       id: 3,
       title: "XSS Testing GUI",
-      description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
+      description: "Developed a GUI for testing web apps for XSS vulnerabilities using ethical hacking tools.",
       image: "https://www.optimizationcore.com/wp-content/uploads/2024/11/javascript-testing-for-xss.webp",
-      tags: ["Node.js", "Angular"],
+      tags: ["Node.js", "Angular", "Kali Linux"],
       code: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
       category: "ai"
     },
     {
       id: 4,
       title: " LLM-Based Food Ingredient Analyzer",
-      description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
+      description: "Created a framework to analyze packaged food for allergen detection across age groups.",
       image: "https://miro.medium.com/v2/resize:fit:11024/0*foGYVpmcioZrRb4-",
       tags: ["HTML", "CSS"],
       code: "https://github.com/ChandaRiddhima04/food_app",
