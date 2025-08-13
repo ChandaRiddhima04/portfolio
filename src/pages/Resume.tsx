@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
+import SkillsSection from "@/components/SkillsSection";
 import PrintableResume from "@/components/PrintableResume";
 
 import { 
