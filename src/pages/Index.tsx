@@ -13,28 +13,28 @@ const Index = () => {
 
   const featuredProjects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "A system to detect fraudulent activities in income tax filings using AI and machine learning.",
+      title: "Retinal OCT Classification (ViT)",
+      description: "A system to detect ViT model to classify retinal OCT images into CNV, DME, DRUSEN, and NORMAL for early disease detection.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "AI"],
+      tags: ["Python", "Machine Learning", "AI","Neural networks"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML"
+      code: "https://github.com/ChandaRiddhima04/DL-GenAI"
     },
     {
-      title: "Oral Cancer Classification using Neural Networks",
-      description: "Machine learning model to detect and classify oral cancer levels from images.",
+      title: "LLM-Based Food Ingredient Analyzer",
+      description: "Created a framework to analyze packaged food for allergen detection across age groups..",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "TensorFlow", "Neural Networks"],
+      tags: ["LLM","AI"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification"
+      code: "https://github.com/ChandaRiddhima04/food_app"
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Machine learning model to analyze whether a credit card transaction is fraudulent or not.",
+      title: "Cloud-Based Payment Gateway",
+      description: "Developing a secure payment gateway with cloud-based transaction handling..",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "ML", "Data Science"],
+      tags: ["Python", "ML", "Cloud", "Ngrok"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/CC-Fraud-Detection"
+      code: "https://github.com/ChandaRiddhima04/cloud_payment_gateway"
     },
   ];
 
