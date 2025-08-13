@@ -120,7 +120,7 @@ const HeroSection = () => {
                   backgroundSize: "200% 200%"
                 }}
               >
-                Uday G
+                Riddhima Chanda
               </motion.span>
             </motion.h1>
             
