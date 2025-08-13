@@ -74,7 +74,7 @@ export const Layout = ({ children }: LayoutProps) => {
               <p className="text-foreground font-medium mb-3">Connect with me</p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/oxBinaryBrain/"
+                  href="https://github.com/ChandaRiddhima04/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
