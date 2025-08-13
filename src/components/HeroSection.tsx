@@ -213,19 +213,9 @@ const HeroSection = () => {
                   className="col-span-3 row-span-2"
                 />
                 
-                <SkillCard 
-                  icon={FileCode}
-                  title="JavaScript"
-                  description="Frontend & backend development"
-                  className="col-span-3 row-span-2"
-                />
                 
-                <SkillCard 
-                  icon={Globe}
-                  title="React.js"
-                  description="UI Library"
-                  className="col-span-2 row-span-2"
-                />
+                
+               
                 
                 <SkillCard 
                   icon={Database}
@@ -233,27 +223,10 @@ const HeroSection = () => {
                   description="Database"
                   className="col-span-2 row-span-2"
                 />
+               
                 
-                <SkillCard 
-                  icon={Terminal}
-                  title="C++"
-                  description="Systems programming"
-                  className="col-span-2 row-span-2"
-                />
+             
                 
-                <SkillCard 
-                  icon={Server}
-                  title="Node.js"
-                  description="Backend development"
-                  className="col-span-3 row-span-2"
-                />
-                
-                <SkillCard 
-                  icon={Tv}
-                  title="UI/UX Design"
-                  description="Interface design & prototyping"
-                  className="col-span-3 row-span-2"
-                />
                 
                 <SkillCard 
                   icon={GitBranch}
@@ -262,12 +235,7 @@ const HeroSection = () => {
                   className="col-span-3 row-span-2"
                 />
                 
-                <SkillCard 
-                  icon={Code}
-                  title="Next.js"
-                  description="React framework"
-                  className="col-span-3 row-span-2"
-                />
+             
               </div>
             </motion.div>
           </motion.div>
