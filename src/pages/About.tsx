@@ -49,7 +49,7 @@ const About = () => {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              whileHover={{ boxShadow: "0 20px 25px -5px rgba(155, 135, 245, 0.15)" }}
+              whileHover={{ boxShadow: "0 200px 250px -5px rgba(155, 135, 245, 0.15)" }}
             >
               <div className="glass-panel h-full p-8 rounded-lg">
                 <div className="relative w-full h-80 rounded-lg mb-8 overflow-hidden">
