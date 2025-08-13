@@ -7,14 +7,14 @@ const ContactInfo = () => {
     {
       icon: <Mail className="h-5 w-5 text-brand-purple" />,
       title: "Email",
-      details: "ud4yg@yandex.com",
-      link: "mailto:ud4yg@yandex.com",
+      details: "chandariddhima@gmail.com",
+      link: "mailto:chandariddhima@gmail.com",
     },
     {
       icon: <MapPin className="h-5 w-5 text-brand-purple" />,
       title: "Location",
-      details: "Bengaluru, Karnataka, India",
-      link: "https://maps.google.com/?q=Bengaluru",
+      details: "Kolkata,West Bengal, India",
+      link: "https://maps.google.com/?q=Kolkata",
     },
   ];
 
@@ -22,18 +22,14 @@ const ContactInfo = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: "GitHub",
-      url: "https://github.com/oxBinaryBrain/",
+      url: "https://github.com/ChandaRiddhima04/",
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/uday-g-601ba9266/",
+      url: "https://www.linkedin.com/in/riddhima-chanda/",
     },
-    {
-      icon: <Twitter className="h-5 w-5" />,
-      name: "Twitter",
-      url: "https://x.com/UdayG6389896490",
-    },
+    
   ];
 
   return (
