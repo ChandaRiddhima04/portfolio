@@ -44,24 +44,13 @@ const About = () => {
             </div>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              whileHover={{ boxShadow: "0 200px 250px -5px rgba(155, 135, 245, 0.15)" }}
-            >
-              <div className="glass-panel h-full p-8 rounded-lg">
-                <div className="relative w-full h-80 rounded-lg mb-8 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-brand-purple/20 to-blue-500/20"></div>
-                  <img 
-                    src="/uploads/me.jpg" 
-                    alt="Profile" 
-                    className="w-full h-full object-cover rounded-lg"
-                  />
-                </div>
-              </div>
-            </motion.div>
+         <img 
+          src="/uploads/me.jpg" 
+          alt="Profile" 
+          className="w-full h-full object-contain rounded-lg bg-white"
+          style={{ objectPosition: 'center' }}
+/>
+
 
             <motion.div
               initial={{ opacity: 0, x: 50 }}
