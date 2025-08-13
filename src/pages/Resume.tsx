@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
 import PrintableResume from "@/components/PrintableResume";
-import SkillsSection from "@/components/SkillsSection";
+
 import { 
   Briefcase, 
   GraduationCap, 
