@@ -81,19 +81,7 @@ const Projects = () => {
     }
   };
 
-  const filteredProjects = projects.filter(project => {
-    const matchesFilter = filter === "all" || project.category === filter;
-    const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          project.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
-    return matchesFilter && matchesSearch;
-  });
-
-  const categories = [
-    { id: "all", name: "All Projects" },
-    { id: "web", name: "Cyber Security" },
-    { id: "ai", name: "AI & ML" },
-  ];
+  
 
   return (
     <Layout>
