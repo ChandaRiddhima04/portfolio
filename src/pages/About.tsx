@@ -46,7 +46,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{ boxShadow: "0 20px 25px -5px rgba(155, 135, 245, 0.15)" }}
