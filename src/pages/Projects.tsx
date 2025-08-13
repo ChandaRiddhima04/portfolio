@@ -40,7 +40,7 @@ const Projects = () => {
       image: "https://media.dashdevs.com/images/How-to-build-payment-gateway-1.jpg",
       tags: ["Python", "Ngrok"],
       code: "https://github.com/ChandaRiddhima04/cloud_payment_gateway",
-      category: "ai"
+      category: "Cloud computing"
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const Projects = () => {
       image: "https://www.optimizationcore.com/wp-content/uploads/2024/11/javascript-testing-for-xss.webp",
       tags: ["Node.js", "Angular", "Kali Linux"],
       code: "https://github.com/ChandaRiddhima04/XSS_OWASP-juice-shop",
-      category: "ai"
+      category: "Cyber Security"
     },
     {
       id: 4,
@@ -81,7 +81,19 @@ const Projects = () => {
     }
   };
 
-  
+  const filteredProjects = projects.filter(project => {
+    const matchesFilter = filter === "all" || project.category === filter;
+    const matchesSearch = project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          project.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
+    return matchesFilter && matchesSearch;
+  });
+
+  const categories = [
+    { id: "all", name: "All Projects" },
+    { id: "web", name: "Cyber Security" },
+    { id: "ai", name: "AI & ML" },
+  ];
 
   return (
     <Layout>
