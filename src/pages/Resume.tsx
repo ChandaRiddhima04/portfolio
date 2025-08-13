@@ -83,64 +83,28 @@ const Resume = () => {
 
   const projects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "Developed an AI-powered system to detect fraudulent activities in income tax filings using machine learning algorithms and data pattern analysis.",
-      technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "TensorFlow"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
-      accomplishments: [
-        "Created custom algorithms to identify suspicious patterns in tax filings",
-        "Implemented a dashboard to visualize fraud detection metrics",
-        "Achieved 92% accuracy in identifying fraudulent transactions"
-      ]
+      title: "Retinal OCT Classification (ViT)",
+      description: "Developed a ViT model to classify retinal OCT images into CNV, DME, DRUSEN, and NORMAL for early disease detection.",
+      technologies: ["Python", "Machine Learning", "AI", "Neural Networks"],
+      accomplishments: [ "Classified OCT images into CNV, DME, DRUSEN, NORMAL using Vision Transformer" ]
     },
     {
-      title: "Oral Cancer Detection",
-      description: "Built a deep learning model to detect and classify oral cancer stages from medical images, helping in early diagnosis and treatment planning.",
-      technologies: ["Python", "TensorFlow", "Neural Networks", "Computer Vision", "OpenCV"],
-      duration: "05/2023 - 08/2023",
-      type: "2nd Year Project",
-      accomplishments: [
-        "Conducted data collection and preprocessing for oral cancer detection",
-        "Designed and implemented a machine learning model for image classification using CNNs",
-        "Achieved 89% accuracy in detecting early-stage oral cancer"
-      ]
+       title: "Cloud-Based Payment Gateway",
+      description: "Developing a secure payment gateway with cloud-based transaction handling.",
+      technologies: ["Python", "Ngrok"],
+      accomplishments: [ "Developed secure gateway with AWS + Python" ]
     },
     {
-      title: "Object Tracking using OpenCV",
-      description: "Developed an object detection and tracking system using OpenCV and KCF Tracker that can identify and follow objects in video streams.",
-      technologies: ["Python", "OpenCV", "Computer Vision", "AI"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
-      accomplishments: [
-        "Developed an open-source AI project for object detection using encoded data",
-        "Utilized compatible video sources to recognize objects seen through a camera",
-        "Implemented real-time tracking with minimal latency"
-      ]
+      title: "XSS Testing GUI",
+      description: "Developed a GUI for testing web apps for XSS vulnerabilities using ethical hacking tools.",
+      technologies: ["Node.js", "Angular", "Kali Linux"],
+      accomplishments: [ "GUI for XSS vulnerability testing with OWASP Juice Shop" ]
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Created a machine learning model to analyze whether credit card transactions are fraudulent by identifying unusual patterns and anomalies.",
-      technologies: ["Python", "Machine Learning", "Data Science", "Statistical Analysis"],
-      duration: "01/2023 - 03/2023",
-      type: "Personal Project",
-      accomplishments: [
-        "Trained models on large datasets of transaction data",
-        "Implemented feature engineering to improve detection accuracy",
-        "Developed a real-time alert system for suspicious transactions"
-      ]
-    },
-    {
-      title: "Contextualized Topic Modeling",
-      description: "Built a Python package to run contextualized topic modeling with BERT embeddings, enabling more accurate text analysis and categorization.",
-      technologies: ["Python", "NLP", "BERT", "Machine Learning"],
-      duration: "11/2022 - 01/2023",
-      type: "Research Project",
-      accomplishments: [
-        "Created a reusable library for topic modeling tasks",
-        "Implemented BERT embeddings for improved contextual understanding",
-        "Published package with documentation for community use"
-      ]
+      title: " LLM-Based Food Ingredient Analyzer",
+      description: "Created a framework to analyze packaged food for allergen detection across age groups.",
+      technologies: ["HTML", "CSS"],
+      accomplishments: ["Analyzed packaged food for allergens and health risks"]
     },
   ];
 
