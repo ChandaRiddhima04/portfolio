@@ -30,58 +30,52 @@ const Resume = () => {
 
   const education = [
     {
-      institution: "Presidency University, Bengaluru",
+      institution: "Institute of Engineering and Management, Kolkata",
       degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (AI & ML)",
-      duration: "2021 - 2025",
-      gpa: "3.0/4.0",
-      location: "Bengaluru, India",
+      field: "Computer Science & Engineering (Business System)",
+      duration: "2022 - 2026",
+      gpa: "9.07/10",
+      location: "West Bengal, India",
     },
     {
-      institution: "MES Kishora Kendra, Bengaluru",
-      degree: "Pre-University College",
+      institution: "Kaliyaganj Parbati Sundari High School, Uttar Dinajpur",
+      degree: "Higher Secondary",
       field: "Science Stream",
-      duration: "2019 - 2021",
-      gpa: "85%",
-      location: "Bengaluru, India",
+      duration: "2020 - 2022",
+      gpa: "94.4%",
+      location: "West Bengal, India",
     },
   ];
 
   const experience = [
     {
-      position: "Freelance Developer",
-      company: "Self-employed",
-      duration: "January 2023 - Present",
-      description: "Working as a freelance developer on various projects, specializing in web development and AI solutions.",
+      position: " Data Analytics Intern",
+      company: " Kaliyaganj Municipality",
+      duration: "June 2025- July 2025",
+      description: "Working as data analytics intern on various projects.",
       responsibilities: [
-        "Developed full-stack web applications for clients using React, Node.js, and MongoDB",
-        "Created AI-powered solutions for data analysis and automation",
-        "Managed project timelines and client communication",
-        "Integrated AI tools into development workflows for improved efficiency"
+         "Analyzed civic datasets using Python and Excel",
+         "Built dashboards to visualize trends in public resource usage",
       ]
     },
     {
-      position: "Web Developer Intern",
-      company: "SkillCraft Technologies",
-      duration: "November 2024 - December 2024",
-      description: "Developed and maintained web applications using React.js and Node.js. Collaborated with senior developers to implement new features and fix bugs.",
+      position: "Research Assistant",
+      company: "IEDC IEM Kolkata",
+      duration: "March 2024 - September 2024",
+      description: "Developed and maintained BCI models. Collaborated with seniors to research on new domains .",
       responsibilities: [
-        "Developed responsive front-end interfaces using React.js",
-        "Implemented RESTful APIs using Node.js and Express",
-        "Participated in code reviews and team meetings",
-        "Optimized applications for maximum speed and scalability"
+         "Developed ML/DL-based Brain-Computer Interface models",
+        "Analyzed neural signals and presented findings",
       ]
     },
     {
-      position: "Open Source Contributor",
-      company: "GitHub Community",
-      duration: "January 2022 - Present",
-      description: "Actively contributed to various open-source projects, focusing on web development and machine learning libraries.",
+      position: "Python Developer",
+      company: "Codsoft",
+      duration: "May 2024 - June 2024",
+      description: "Built Python Projects",
       responsibilities: [
         "Fixed bugs and implemented new features in popular repositories",
-        "Collaborated with developers worldwide through pull requests",
-        "Improved documentation for better user experience",
-        "Participated in code reviews and discussions"
+        "Improved Python Coding Skills",
       ]
     },
   ];
@@ -151,39 +145,39 @@ const Resume = () => {
 
   const certifications = [
     {
-      name: "API Prototyping Learning Path",
-      issuer: "Postman",
-      date: "December 2024",
-      skills: "API Prototyping, API Testing, API Documentation",
-      credential: "PST-APL-2024"
+      name: "Cybersecurity Analyst Associate",
+      issuer: "Microsoft and Coursera",
+      date: "March 2025",
+      skills: "Networking, Cloud Computing, Cyber Security Tools and Technologies",
+      credential: "HF1XOWJOY5QB"
     },
     {
-      name: "Career Essentials in Generative AI",
-      issuer: "Microsoft and LinkedIn",
-      date: "November 2024",
-      skills: "Generative AI, Prompt Engineering, LLM Applications",
-      credential: "MSLI-GAI-2024"
+      name: "AWS Cloud Technology Consultant",
+      issuer: "Amazon and Coursera",
+      date: "April 2025",
+      skills: "AWS Cloud Technical Essentials, Python in AWS,Web App hosting in AWS",
+      credential: "S077Y5THADV2"
     },
     {
-      name: "Learning Microsoft Power BI",
-      issuer: "Infosys Springboard",
-      date: "November 2024",
-      skills: "Microsoft Power BI, Data Visualization, Business Intelligence",
-      credential: "ISB-PBI-2024"
+      name: " Building AI Cloud Apps with Azure",
+      issuer: "Microsoft and Coursera",
+      date: "March 2025",
+      skills: "AI, Serverless applications, Web hosting",
+      credential: "4YFO6T9A0YRF"
     },
     {
-      name: "Neural Networks and Deep Learning",
-      issuer: "Great Learning",
-      date: "January 2024",
-      skills: "Neural Networks, Deep Learning, AI Architecture",
-      credential: "GL-NNDL-2024"
+      name: "Cyber Job Simulation",
+      issuer: "Deloitte",
+      date: "June 2025",
+      skills: "Cyber Security, hashing"
+    
     },
     {
-      name: "Real Life Machine Learning and Data Science Projects",
-      issuer: "Udemy",
-      date: "November 2022",
-      skills: "Machine Learning, Data Science, Practical Implementation",
-      credential: "UC-e1c70903-b810-4b6b-8749-eebd3345715"
+      name: "Using AI Imagery for Illustration and Design",
+      issuer: "Linkedin",
+      date: "October 2023",
+      skills: "Gen AI, Prompt Engineering,DALL-E, Stable Diffusion",
+
     },
   ];
 
@@ -203,14 +197,9 @@ const Resume = () => {
       icon: <Brain className="h-8 w-8 text-brand-purple" />
     },
     { 
-      title: "Full-Stack Developer", 
-      description: "Proficient in both front-end and back-end technologies, creating complete web solutions",
+      title: "Cloud Computing engineer", 
+      description: "Proficient in AWS cloud platform",
       icon: <Code className="h-8 w-8 text-brand-purple" />
-    },
-    { 
-      title: "Web Developer", 
-      description: "Experienced in building web applications using react framework and plain HTML and CSS",
-      icon: <Cpu className="h-8 w-8 text-brand-purple" />
     },
     { 
       title: "Data Analyst", 
