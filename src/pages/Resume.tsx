@@ -291,7 +291,7 @@ const Resume = () => {
             <div className="mt-4 pl-4 border-l-2 border-brand-purple/30">
               <h4 className="font-medium mb-2">Key Courses:</h4>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {edu.institution.includes("Presidency") ? (
+                {edu.institution.includes("Institute") ? (
                   <>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
@@ -331,10 +331,6 @@ const Resume = () => {
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
                       Mathematics
-                    </li>
-                    <li className="text-sm flex items-center">
-                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Computer Science
                     </li>
                   </>
                 )}
@@ -509,7 +505,7 @@ const Resume = () => {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-muted-foreground">
-                I'm an aspiring developer specializing in web development, AI, and machine learning.
+                I'm an aspiring developer specializing in Cloud, AI, and machine learning.
                 My goal is to leverage these technologies to create innovative solutions for real-world problems.
               </p>
             </div>
