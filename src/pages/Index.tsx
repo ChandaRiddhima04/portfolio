@@ -39,12 +39,10 @@ const Index = () => {
   ];
 
   const techStack = [
-    { name: "Python", proficiency: 90 },
-    { name: "JavaScript", proficiency: 85 },
-    { name: "React.js", proficiency: 80 },
-    { name: "Node.js", proficiency: 75 },
-    { name: "Firebase", proficiency: 70 },
-    { name: "Next.js", proficiency: 65 },
+    { name: "Python", proficiency: 80 },
+    { name: "SQL", proficiency: 85 },
+    { name: "ML", proficiency: 70 },
+    { name: "AWS", proficiency: 70 },
   ];
 
   return (
@@ -66,7 +64,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Who I Am</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              I'm a Computer Science student specializing in AI & ML. Passionate about programming, AI integration, and building innovative web applications.
+              I'm a Computer Science student specializing in AI & ML. Passionate about programming, AI integration, and building innovative Cloud applications.
             </p>
           </motion.div>
 
@@ -85,7 +83,7 @@ const Index = () => {
                 Web Development
               </h3>
               <p className="text-muted-foreground text-center">
-                Experienced in building modern, responsive web applications using React.js, Next.js, and Node.js.
+                Experienced in building modern, responsive web applications .
               </p>
             </motion.div>
 
