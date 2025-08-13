@@ -299,15 +299,15 @@ const Resume = () => {
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Data Structures & Algorithms
+                      Operating Systems
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Computer Vision Systems
+                      Computer Networking Systems
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Web Development
+                      Cyber Security 
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
