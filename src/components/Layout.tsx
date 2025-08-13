@@ -85,7 +85,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Github className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/uday-g-601ba9266/"
+                  href="https://www.linkedin.com/in/riddhima-chanda/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -95,19 +95,9 @@ export const Layout = ({ children }: LayoutProps) => {
                 >
                   <Linkedin className="h-5 w-5" />
                 </motion.a>
+                
                 <motion.a
-                  href="https://x.com/UdayG6389896490"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  aria-label="Twitter"
-                >
-                  <Twitter className="h-5 w-5" />
-                </motion.a>
-                <motion.a
-                  href="mailto:ud4yg@yandex.com"
+                  href="mailto:chandariddhima@gmail.com"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
